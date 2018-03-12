@@ -14,14 +14,34 @@ npm install postcss-complementary
 
 ## Examples
 
+### Get uniform complementary or a color
+
 ```css
 /* input */
 div { color: complementary(#34bbed) }
 ```
 ```css
 /* output */
+div { color: #e6a12d }
+```
+
+### Get a perfect complementary of a color
+
+```css
+/* input */
+div { color: complementary(#34bbed, false) }
+```
+```css
+/* output */
 div { color: #ed6634 }
 ```
+
+## Options
+
+| Option | Type | Default | Description |
+|:---:|:---:|:---:|:---:|
+| `uniform` | Boolean | `true` | Whether or not to use the uniform complementary (meaning the complementary color that also has the same apparent lightness) of the color |
+
 
 ## Usage
 
