@@ -11,7 +11,7 @@ function testCode(code, expected, options = {}, plugins = []) {
   }
 }
 
-it('can set complementary color', testCode(
-  'div { color: complementary(#34bbed) }',
-  'div { color: #ed6634 }'
+it('can set greyscale color', testCode(
+  'div { color: greyscale(#34bbed) }',
+  'div { color: #9f9f9f }'
 ))

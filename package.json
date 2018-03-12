@@ -1,12 +1,12 @@
 {
-  "name": "postcss-complementary",
+  "name": "postcss-greyscale",
   "version": "1.0.0",
-  "description": "A PostCSS plugin to get the complementary of a color",
+  "description": "A PostCSS plugin to get the greyscale equivalent of a color",
   "main": "index.js",
   "license": "MIT",
-  "repository": "https://github.com/arpadHegedus/postcss-complementary.git",
-  "homepage": "https://github.com/arpadHegedus/postcss-complementary#readme",
-  "bugs": "https://github.com/arpadHegedus/postcss-complementary/issues",
+  "repository": "https://github.com/arpadHegedus/postcss-greyscale.git",
+  "homepage": "https://github.com/arpadHegedus/postcss-greyscale#readme",
+  "bugs": "https://github.com/arpadHegedus/postcss-greyscale/issues",
   "keywords": [
     "postcss",
     "postcss-plugin",
@@ -14,7 +14,7 @@
     "plugin",
     "css",
     "style",
-    "complementary",
+    "greyscale",
     "chromatism",
     "color"
   ],
