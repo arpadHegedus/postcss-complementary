@@ -11,12 +11,12 @@ function testCode(code, expected, options = {}, plugins = []) {
   }
 }
 
-it('can set uniform complementary color', testCode(
+it('can set complementary color', testCode(
   'div { color: complementary(#34bbed) }',
-  'div { color: #e6a12d }'
+  'div { color: #ed6634 }'
 ))
 
-it('can set perfect complementary color', testCode(
-  'div { color: complementary(#34bbed, false) }',
-  'div { color: #ed6634 }'
+it('can set uniform complementary color', testCode(
+  'div { color: complementary(#34bbed, uniform) }',
+  'div { color: #e6a12d }'
 ))

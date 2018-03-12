@@ -1,7 +1,7 @@
 const chromatism = require('chromatism')
 const postcss = require('postcss')
 const util = require('postcss-plugin-utilities')
-let settings = { uniform: true }
+let settings = { uniform: false }
 
 function complementary(obj, color, mode = null) {
   mode = mode === 'uniform' || mode === 'true' || mode === null && settings.uniform === true ? 'uniform' : 'normal'
